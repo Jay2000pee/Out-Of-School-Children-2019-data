@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(200, 205, 212);
+}
+
+.map{
+    width: 50%;
+    margin: auto;
+}
+
+.map path{
+    fill: rgb(180, 170, 23);
+    stroke: black;
+    transition: fill 4s;
+    
+}
+
+.map :hover{
+    fill: rgb(161, 7, 7);
+    transition: fill .3s;
+}
